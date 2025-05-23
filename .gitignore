@@ -1,8 +1,32 @@
-# .gitignore
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
+*.py[cod]
+*.so
+
+# Virtual environments
 venv/
+.env
+
+# Jupyter Notebooks checkpoints
 .ipynb_checkpoints/
+
+# Mac system files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Python environment config
+*.env
+*.ini
+
+# Model files and large data
+*.h5
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+# Node.js (if frontend involved)
+node_modules/

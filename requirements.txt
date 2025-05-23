@@ -1,0 +1,14 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+keras
+keras-tuner
+imblearn
+fastapi
+uvicorn
+python-dotenv
+pydantic
+joblib
