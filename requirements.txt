@@ -1,14 +1,35 @@
+# Core packages
 pandas
 numpy
+scikit-learn
 matplotlib
 seaborn
-scikit-learn
-tensorflow
+
+# Deep learning
+tensorflow>=2.10
 keras
 keras-tuner
-imblearn
+
+# Oversampling
+imbalanced-learn
+
+# API
 fastapi
-uvicorn
-python-dotenv
+uvicorn[standard]
 pydantic
+
+# Web frontend (optional if using Streamlit or React)
+requests
+
+# UI (for Hugging Face Spaces or local Streamlit apps)
+streamlit
+
+# AWS (optional: if using deploy_aws.py)
+boto3
+
+# Testing
+pytest
+
+# Logging and utils
+python-dotenv
 joblib
